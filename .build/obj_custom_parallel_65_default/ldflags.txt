@@ -1,0 +1,1 @@
+-Wl,--gc-sections -Wl,-Map=.build/custom_parallel_65_default.map,--cref   -lm 
