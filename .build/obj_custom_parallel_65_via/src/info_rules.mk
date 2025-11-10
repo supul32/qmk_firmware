@@ -26,11 +26,12 @@
 #
 ################################################################################
 
-BOOTLOADER ?= atmel-dfu
+BOOTLOADER ?= rp2040
 LAYOUTS ?= 65_ansi_blocker
-MCU ?= atmega32u4
-PLATFORM_KEY ?= avr
+MCU ?= RP2040
+PLATFORM_KEY ?= chibios
 RGB_MATRIX_DRIVER ?= ws2812
+WS2812_DRIVER ?= vendor
 BOOTMAGIC_ENABLE ?= yes
 EXTRAKEY_ENABLE ?= yes
 MOUSEKEY_ENABLE ?= yes

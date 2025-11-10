@@ -1,0 +1,40 @@
+.build/test_obj/combo/quantum/process_keycode/process_combo.o: \
+ quantum/process_keycode/process_combo.c tests/combo/config.h \
+ tests/test_common/test_common.h quantum/process_keycode/process_combo.h \
+ quantum/action.h platforms/progmem.h quantum/keyboard.h \
+ platforms/timer.h quantum/keycode.h quantum/keycodes.h \
+ quantum/modifiers.h quantum/action_code.h quantum/quantum_keycodes.h \
+ quantum/keymap_extras/keymap_us.h quantum/sequencer/sequencer.h \
+ quantum/quantum_keycodes_legacy.h \
+ quantum/process_keycode/process_auto_shift.h quantum/caps_word.h \
+ platforms/wait.h platforms/test/_wait.h quantum/keymap_common.h \
+ quantum/action_layer.h quantum/bitwise.h quantum/action_tapping.h \
+ quantum/action_util.h tmk_core/protocol/report.h quantum/util.h \
+ quantum/keymap_introspection.h
+tests/combo/config.h:
+tests/test_common/test_common.h:
+quantum/process_keycode/process_combo.h:
+quantum/action.h:
+platforms/progmem.h:
+quantum/keyboard.h:
+platforms/timer.h:
+quantum/keycode.h:
+quantum/keycodes.h:
+quantum/modifiers.h:
+quantum/action_code.h:
+quantum/quantum_keycodes.h:
+quantum/keymap_extras/keymap_us.h:
+quantum/sequencer/sequencer.h:
+quantum/quantum_keycodes_legacy.h:
+quantum/process_keycode/process_auto_shift.h:
+quantum/caps_word.h:
+platforms/wait.h:
+platforms/test/_wait.h:
+quantum/keymap_common.h:
+quantum/action_layer.h:
+quantum/bitwise.h:
+quantum/action_tapping.h:
+quantum/action_util.h:
+tmk_core/protocol/report.h:
+quantum/util.h:
+quantum/keymap_introspection.h:

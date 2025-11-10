@@ -1,0 +1,1 @@
+ -x c++ -funsigned-char -funsigned-bitfields -ffunction-sections -fdata-sections -fshort-enums -mno-ms-bitfields -fno-exceptions -std=gnu++14 -g0  -Og -w -Wall -Wundef -Werror   -Ilib/googletest/googletest/include -Ilib/googletest/googlemock/include -Ilib/googletest/googletest -Ilib/googletest/googlemock  
